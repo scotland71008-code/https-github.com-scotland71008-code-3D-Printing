@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snapmaker 3D Print Quoting Tool | أداة تسعير الطباعة ثلاثية الأبعاد</title>
+    <meta name="description" content="Bilingual 3D print cost & quotation calculator for Snapmaker workflows with real-time margins, dark mode, Arabic/English support, and PDF export." />
+    <meta property="og:title" content="Snapmaker 3D Print Quoting Tool" />
+    <meta property="og:description" content="Bilingual 3D print cost & quotation calculator for Snapmaker workflows with real-time margins, dark mode, Arabic/English support, and PDF export." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+      @media print {
+        body {
+          background: #ffffff !important;
+          color: #0f172a !important;
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        #receipt-card, #quote-receipt {
+          box-shadow: none !important;
+          border: 1px solid #cbd5e1 !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          margin: 0 !important;
+          padding: 24px !important;
+          background: #ffffff !important;
+          color: #0f172a !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen font-sans antialiased transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "Snapmaker Quoting Tool V2",
+  "description": "Multi-mode manufacturing cost & pricing calculator for Snapmaker 3D printing, laser cutting, and CNC milling with depreciation, labor, scrap buffers, VAT, volume discounts, WhatsApp sharing, PDF export, and quote history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
